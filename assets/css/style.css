@@ -1,0 +1,7 @@
+body{
+    font-family: Fira sans;
+    font-weight: 400;
+    background-color: rgba(158, 252, 255, 0.767);
+    scroll-behavior: smooth;
+    text-align: center;
+}
