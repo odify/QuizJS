@@ -72,7 +72,7 @@ for (let i = 0; i < data.length; i++) {
     let h2 = document.createElement("h2");
     let div = document.createElement("div");
     div.style.display = "flex";
-    div.style.justifyContent = "space-between"
+    div.style.justifyContent = "center"
     image.src = data[i].url;
     h2.innerHTML = data[i].question;
 
@@ -82,7 +82,7 @@ for (let i = 0; i < data.length; i++) {
         button.innerHTML = data[i].choice[j]
         button.style.backgroundColor = "#3d3a38";
         button.style.color = "white";
-        button.style.borderRadius = "3%";
+        button.style.borderRadius = "4%";
         button.style.margin = "15px";
         button.name = "button"
         div.appendChild(button);
